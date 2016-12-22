@@ -1,1 +1,2 @@
 c:\users\asky\documents\visual studio 2013\Projects\WorldOfRestaurant\WorldOfRestaurant\bin\Debug\WorldOfRestaurant.exe.config
+C:\Users\ПавловМН\Documents\GitHub\WorldOfRestaurant\WorldOfRestaurant\WorldOfRestaurant\bin\Debug\WorldOfRestaurant.exe.config

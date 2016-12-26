@@ -11,5 +11,6 @@ namespace WORLib
     /// </summary>
     public class Restaurant
     {
+        public List<MenuItem> MenuItems { get; set; }
     }
 }

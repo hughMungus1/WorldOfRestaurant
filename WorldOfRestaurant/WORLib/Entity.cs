@@ -11,7 +11,7 @@ namespace WORLib
         public Guid Id { get; set; }
         public Entity()
         {
-            id = Guid.NewGuid();
+            Id = Guid.NewGuid();
         }
     }
 }

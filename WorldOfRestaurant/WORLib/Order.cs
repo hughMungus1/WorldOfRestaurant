@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace WORLib
 {
-    public class Class1
+    /// <summary>
+    /// Заказ
+    /// </summary>
+    public class Order
     {
+
     }
 }

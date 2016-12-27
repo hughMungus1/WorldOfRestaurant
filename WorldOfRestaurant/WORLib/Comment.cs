@@ -11,5 +11,26 @@ namespace WORLib
     /// </summary>
     public class Comment
     {
+        /// <summary>
+        /// Кол-во лайков
+        /// </summary>
+        public int Likes { get; set; }
+
+        /// <summary>
+        /// Дата отправки
+        /// </summary>
+        public DateTime DateSend { get; set; }
+
+        /// <summary>
+        /// Сам коментарий
+        /// </summary>
+        public string Comment { get; set; }
+
+        public Comment(string comment)
+        {
+            DateSend = DateTime.Now;
+            Likes = 0;
+            Comment = comment;
+        }
     }
 }

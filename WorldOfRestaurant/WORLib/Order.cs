@@ -9,8 +9,21 @@ namespace WORLib
     /// <summary>
     /// Заказ
     /// </summary>
-    public class Order
+    public class Order : Entity
     {
+        /// <summary>
+        /// ID элементов меню
+        /// </summary>
+        public List<Guid> MenuItemsId { get; set; }
 
+        /// <summary>
+        /// Полная цена заказа
+        /// </summary>
+        public string Discription { get; set; }
+
+        public Order()
+        {
+            MenuItemsId = new List<Guid>();
+        }
     }
 }
